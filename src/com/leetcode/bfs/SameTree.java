@@ -1,5 +1,7 @@
 package com.leetcode.bfs;
 
+import com.leetcode.definitions.TreeNode;
+
 /**
  * 100. Same Tree
  * Level: Easy
@@ -13,24 +15,5 @@ public class SameTree {
         if(p.val != q.val) { return false; }
 
         return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
-    }
-}
-
-// Definition for a binary tree node.
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() { }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
     }
 }

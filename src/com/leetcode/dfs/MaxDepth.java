@@ -1,9 +1,12 @@
 package com.leetcode.dfs;
 
+import com.leetcode.definitions.TreeNode;
+
 /**
  * 104. Maximum depth of binary tree
  * Level: Easy
  * topics: dfs, recursion, tree
+ * article: https://www.educative.io/answers/finding-the-maximum-depth-of-a-binary-tree
  **/
 public class MaxDepth {
 

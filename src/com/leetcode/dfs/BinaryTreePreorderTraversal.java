@@ -1,5 +1,7 @@
 package com.leetcode.dfs;
 
+import com.leetcode.definitions.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
