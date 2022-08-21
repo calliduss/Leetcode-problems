@@ -11,7 +11,14 @@ import java.util.List;
 /**
  * 144. Binary Tree Preorder Traversal
  * Level: Easy
- * topics: dfs, recursion, tree, iterative dfs
+ * topics: dfs, recursion, binary tree, iterative dfs
+ *            1
+ *             \
+ *              2
+ *             /
+ *           3
+ * Input: root = [1,null,2,3]
+ * Output: [1,2,3]
  **/
 public class BinaryTreePreorderTraversal {
 

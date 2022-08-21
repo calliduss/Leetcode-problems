@@ -8,12 +8,19 @@ import java.util.Queue;
 /**
  * 101. Symmetric Tree
  * Level: Easy
- * topics: bfs, recursion, tree, iterative bfs
+ * topics: bfs, recursion, binary tree, iterative bfs
  * description:
  * - if root null => symmetric tree
  * - if left and right nodes are null => symmetric tree
  * - the two root nodes have the same value
  * - the left subtree of one root node is a mirror reflection of the right subtree of the other root node
+ *            1                 1
+ *         /  |  \            / | \
+ *        2   |   2         2   |  2
+ *      /  \  |  /  \       \   |   \
+ *     3    4 | 3    4       3  |    3
+ *  1) Output: true
+ *  2) Output: false
  * article: https://www.baeldung.com/cs/binary-tree-is-symmetric
  **/
 public class SymmetricTree {
