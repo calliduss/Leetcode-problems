@@ -6,24 +6,24 @@ import com.leetcode.definitions.TreeNode;
  * 111. Minimum Depth of Binary Tree
  * Level: Easy
  * topics: dfs, recursion, binary tree
- *            3             1
- *         /    \            \
- *        9      20           2
- *             /   \           \
- *            15    7           3
- *                               \
- *                                4
- *                                 \
- *                                  5
- *                                   \
- *                                    6
+ *            3                    3                1
+ *         /    \                /   \               \
+ *        9      20             20    9               2
+ *             /   \          /   \                    \
+ *            15    7        15    7                    3
+ *                                                       \
+ *                                                        4
+ *                                                         \
+ *                                                          5
+ *                                                           \
+ *                                                            6
  * 1) Output: 2
  * 2) Output: 6
  * article: https://www.educative.io/answers/how-to-find-the-minimum-depth-of-a-binary-tree
  **/
 public class MinDepth {
 
-    public static int minDepth(TreeNode root) {
+    public int minDepth(TreeNode root) {
         if(root == null) {
             return 0;
         }
